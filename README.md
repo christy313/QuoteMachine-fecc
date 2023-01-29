@@ -1,4 +1,4 @@
-# This is the front-end code challenge from QuoteMachine.
+# QuoteMachine Front-end code challenge
 
 ![](./public/images/overview.png)
 
@@ -9,39 +9,43 @@
 - [Demo](#demo)
 - [Installation](#installation)
 - [Unit Test Cases](#unit-test-cases)
+- [Continuous Deployment](#continuous-deployment)
 - [Tech Stack](#tech-stack)
 - [Future improvement](#future-improvement)
 
 ## Demo
 
+[Demo site](https://quotemachinefecc.netlify.app/)
 
 ## Installation
 
-> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 1. Clone this project
 
-`$ git clone git@github.com:christy313/QuoteMachine-fecc.git`
+    `$ git clone git@github.com:christy313/QuoteMachine-fecc.git`
 
 2. cd into project directory
 
-`$ cd QuoteMachine-fecc`
+    `$ cd QuoteMachine-fecc`
 
 3. Install all npm packages
 
-`$ npm install`
+    `$ npm install`
 
 4. Run npm development script
 
-`$ npm start`
+    `$ npm start`
 
 5. Browse to [http://localhost:3000](http://localhost:3000) to view
 
 ## Unit Test Cases
 
-- Run following command at root directory
+- Run the following command at root directory
 
-`$ npm run test`
+    `$ npm run test`
+
+## Continuous Deployment
+
+Continuous Deployment with Netlify
 
 ## Tech Stack
 

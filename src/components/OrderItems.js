@@ -3,7 +3,7 @@ import OrderItem from "./OrderItem";
 import {
   calculateOrderDiscountAmount,
   calculateOrderTotalWithoutDiscount,
-} from "./helper";
+} from "../helper/helper";
 
 export default function OrderItems(props) {
   const items = props.items || [];

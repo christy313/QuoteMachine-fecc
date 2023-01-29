@@ -1,5 +1,5 @@
 import React from "react";
-import { showDiscount } from "./helper";
+import { showDiscount } from "../helper/helper";
 
 export default function OrderItem(props) {
   const item = props.item || {};

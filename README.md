@@ -1,4 +1,4 @@
-# QuoteMachine Front-end code challenge
+# QuoteMachine React Test
 
 ![](./public/images/overview.png)
 

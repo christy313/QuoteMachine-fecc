@@ -47,7 +47,7 @@
 
 Continuous Deployment with Netlify
 
-## Tech Stack
+## Tech Stacks
 
 - HTML
 - CSS

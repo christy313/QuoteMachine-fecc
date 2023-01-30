@@ -10,7 +10,7 @@
 - [Installation](#installation)
 - [Unit Test Cases](#unit-test-cases)
 - [Continuous Deployment](#continuous-deployment)
-- [Tech Stack](#tech-stacks)
+- [Tech Stacks](#tech-stacks)
 - [Future improvement](#future-improvement)
 
 ## Demo

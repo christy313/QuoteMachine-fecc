@@ -8,6 +8,7 @@ import {
 export default function OrderItems(props) {
   const items = props.items || [];
   const total = props.total || 0;
+  const discountAmount = items.every((item) => item.discountAmount === 0);
 
   return (
     <ul className="list-group mb-3">
@@ -16,10 +17,17 @@ export default function OrderItems(props) {
       ))}
       <li className="list-group-item d-flex">
         <span>Total (USD):</span>&nbsp;
-        <strong>${total}</strong>&nbsp;&nbsp;
-        <div>{`[Reg: $${calculateOrderTotalWithoutDiscount(
-          items
-        )} - $${calculateOrderDiscountAmount(items)}]`}</div>
+        {discountAmount ? (
+          <strong>${total}</strong>
+        ) : (
+          <>
+            <strong>${total}</strong>
+            <div>{`[Reg: $${calculateOrderTotalWithoutDiscount(
+              items
+            )} - $${calculateOrderDiscountAmount(items)}]`}</div>
+          </>
+        )}
+        &nbsp;&nbsp;
       </li>
     </ul>
   );

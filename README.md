@@ -1,4 +1,4 @@
-# QuoteMachine React Test
+# QuoteMachine React Technical Test
 
 ![](./public/images/overview.png)
 

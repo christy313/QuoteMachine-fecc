@@ -4,6 +4,8 @@
 
 [QuoteMachine Technical Test](https://bitbucket.org/atelier35/golang-react-test/src/master/)
 
+[code pen link](https://codepen.io/christy313/pen/ZEjjrZW)
+
 ## Contents
 
 - [Demo](#demo)
